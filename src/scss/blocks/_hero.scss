@@ -1,0 +1,32 @@
+.hero {
+  background: #2f303a;
+  padding: 200px 0;
+  margin-bottom: 94px;
+
+  &__title {
+    font-family: "Roboto"; /* Font-это шрифт, семейство шрифтов */
+    font-style: normal; /* стиль  */
+    font-weight: 900; /*жирность шрифта*/
+    font-size: 44px; /** размер шрифта*/
+    line-height: 60px; /**высота букв*/
+    text-align: center; /*! центрирует строчные элементы*/
+    letter-spacing: 0.06em; /**отступы между буквами в словах */
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  &__btn {
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
+    background: #2196f3;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.advantage {
+  margin-bottom: 94px;
+
+  &__description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.03em;
+  }
+
+  &_list {
+    display: flex;
+    gap: 30px;
+  }
+  &__item {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  &__item {
+    &::before {
+      display: block;
+      content: "";
+      width: 100%;
+      height: 120px;
+      border-radius: 4px;
+      margin-bottom: 30px;
+      background: #f7f5f5;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  .antenna::before {
+    background-image: url("../../icons/antenna.svg");
+  }
+  .clock1::before {
+    background-image: url("../../icons/clock.svg");
+  }
+  .diagram1::before {
+    background-image: url("../../icons/diagram.svg");
+  }
+  .astronaut1::before {
+    background-image: url("../../icons/astronaut.svg");
+  }
+}

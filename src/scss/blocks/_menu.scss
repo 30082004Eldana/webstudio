@@ -1,0 +1,62 @@
+.menu {
+  &__site-logo {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    &:hover {
+      color: #2196f3;
+    }
+  }
+
+  &__logo {
+    color: #2196f3;
+  }
+
+  &__contact-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    &:hover {
+      color: #2196f3;
+    }
+  }
+
+  &__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em; /*отступы между буквами в словах */
+    text-decoration: none;
+    color: #212121;
+    &:hover {
+      color: #2196f3;
+    }
+  }
+  &__page-header {
+    padding: 25px 0;
+  }
+  &__list_contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+  }
+  &__contacts-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    &:hover {
+      color: #2196f3;
+    }
+  }
+}
